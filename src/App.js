@@ -15,7 +15,7 @@ import { setContext } from "@apollo/client/link/context";
 
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:5000/'
+  uri: 'https://ancient-plateau-85388.herokuapp.com/'
 });
 
 
